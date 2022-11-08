@@ -1,5 +1,3 @@
-
-  
   .card {
     background: url("https://static4.arrow.com/-/media/arrow/images/820-x-410/1/1117_arduino_uno_overview_820.jpg") center;
     color: #ffffff;
@@ -26,17 +24,6 @@
     transition: transform .5s .25s ease-in;
   }
 
-.card:hover {
-  content: "";
-  background: white;
-
-}
-
-  .card:hover::before {
-    content: '';
-    background: white;
-    clip-path: polygon(0 0,100% 0, 100% 45%, 0% 100%);
-  }
   
   .card h2 {
     text-transform: capitalize;

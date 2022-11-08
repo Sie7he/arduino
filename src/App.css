@@ -1,7 +1,8 @@
 
 .App {
  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,51,121,1) 35%, rgba(0,212,255,1) 100%);
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,51,121,1) 35%, rgba(0,212,255,1) 100%);
+
 }
 
 .container {
@@ -15,6 +16,7 @@
 .div-transform {
   display: flex;
   transform: scale(1.1) translateX(50px);
+  
 }
 
 
@@ -26,5 +28,9 @@
     align-items: center;
     transform: translateX(15px)
   }
+ .container {
+  height: 100%;
+ }
+
   
 }
