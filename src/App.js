@@ -30,11 +30,10 @@ function App() {
       <div className="container">
         <div className="div-transform">
 
-        
          {sensor.humedad && <Card className='card card-1' title='Temperatura' content={sensor.temperatura + '°C'} subText={sensor.fecha}/>}
          {sensor.humedad &&<Card className='card card-2' title='Humedad Ambiental' content={sensor.humedad + '%'} subText={sensor.fecha} />}
         {sensor.humedad &&<Card className='card card-3' title='Humedad Tierra'  content={sensor.h_tierra + '%'} subText={sensor.fecha}/>}
-
+      
         </div>
       </div>
     </div>
